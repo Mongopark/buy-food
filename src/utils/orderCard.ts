@@ -1,0 +1,42 @@
+export const orders = [
+	{
+		desc: "Description: Lorem ipsum & seit dolors",
+		quantity: 1,
+		currentPrice: 1500.0,
+		initialPrice: 2500.0,
+		image: "../assets/food1.png",
+		name: "Food name: Lorem ipsum & seit dolors",
+	},
+	{
+		desc: "Description: Lorem ipsum & seit dolors",
+		quantity: 1,
+		currentPrice: 1500.0,
+		initialPrice: 2500.0,
+		image: "../assets/food1.png",
+		name: "Food name: Lorem ipsum & seit dolors",
+	},
+	{
+		desc: "Description: Lorem ipsum & seit dolors",
+		quantity: 1,
+		currentPrice: 1500.0,
+		initialPrice: 2500.0,
+		image: "../assets/food1.png",
+		name: "Food name: Lorem ipsum & seit dolors",
+	},
+	{
+		desc: "Description: Lorem ipsum & seit dolors",
+		quantity: 1,
+		currentPrice: 1500.0,
+		initialPrice: 2500.0,
+		image: "../assets/food1.png",
+		name: "Food name: Lorem ipsum & seit dolors",
+	},
+	{
+		desc: "Description: Lorem ipsum & seit dolors",
+		quantity: 1,
+		currentPrice: 1500.0,
+		initialPrice: 2500.0,
+		image: "../assets/food1.png",
+		name: "Food name: Lorem ipsum & seit dolors",
+	},
+];

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "748543251480",
+    "project_id": "diet-planner-project",
+    "storage_bucket": "diet-planner-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748543251480:android:e30cb7475710ec740b9f6d",
+        "android_client_info": {
+          "package_name": "com.ndia.customerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3UXPJ03W_VD2tML1r0WVF-D7vUgDV5Yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

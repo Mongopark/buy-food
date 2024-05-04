@@ -1,0 +1,210 @@
+import { StyleSheet } from "react-native";
+import {
+  backgroundColor,
+  gray50,
+  grey300,
+  grey500,
+  grey600,
+  grey900,
+  greyText,
+  lightBackground,
+  secondaryColor,
+} from "../../constants/colors";
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: backgroundColor,
+    paddingBottom: 32,
+  },
+  contentContainer: {
+    flex: 1,
+    // paddingBottom: 32,
+  },
+  nav: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    borderBottomWidth: 1,
+    borderBottomColor: lightBackground,
+    paddingTop: 21,
+    paddingBottom: 21,
+    paddingLeft: 16,
+    paddingRight: 16,
+  },
+  navText: {
+    fontSize: 16,
+    fontWeight: "500",
+    lineHeight: 22.95,
+  },
+  main: {
+    paddingLeft: 16,
+    paddingRight: 16,
+    paddingTop: 24,
+  },
+  header: {
+    fontWeight: "700",
+    fontSize: 20,
+    lineHeight: 27,
+    color: grey500,
+  },
+  orderCardWrapper: {
+    paddingBottom: 19.5,
+  },
+  input: {
+    backgroundColor: grey600,
+    borderRadius: 8,
+    width: "100%",
+    height: 51,
+    paddingLeft: 16,
+    fontSize: 14,
+    lineHeight: 18.9,
+  },
+  comment: {
+    borderBottomWidth: 1,
+    borderTopWidth: 1,
+    borderColor: gray50,
+    paddingTop: 16,
+    paddingBottom: 16,
+  },
+  deliveryDetails: {
+    paddingTop: 16,
+    borderBottomWidth: 1,
+    borderColor: gray50,
+    paddingBottom: 16,
+  },
+  timeDetails: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 6,
+    marginTop: 14,
+  },
+  locationDetails: {
+    flexDirection: "row",
+    alignItems: "flex-start",
+    gap: 6,
+    marginTop: 20,
+    marginBottom: 16,
+  },
+  changeLocation: {
+    color: secondaryColor,
+    fontSize: 14,
+    lineHeight: 15.6,
+    marginTop: 6,
+    fontWeight: "700",
+  },
+  deliveryDetailsText: {
+    fontSize: 16,
+    fontWeight: "400",
+    lineHeight: 15.6,
+    color: grey500,
+  },
+  map: {
+    width: "100%",
+    height: 152,
+    borderRadius: 8,
+    marginTop: 16,
+    marginBottom: 14,
+  },
+  deliveryInstruction: {
+    marginTop: 14,
+  },
+  paymentMethodContainer: {
+    gap: 14,
+    paddingBottom: 16,
+    borderBottomColor: gray50,
+    borderBottomWidth: 1,
+    marginBottom: 16,
+  },
+  price: {
+    fontSize: 14,
+    fontWeight: "400",
+    color: grey500,
+  },
+  paymentDetailsRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    gap: 6,
+  },
+  colContainer: {
+    gap: 6,
+  },
+  summaryContainer: {
+    paddingBottom: 34,
+    borderBottomColor: gray50,
+    borderBottomWidth: 1,
+  },
+  summaryRowContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  summaryColContainer: {
+    gap: 16,
+    paddingBottom: 16,
+    borderBottomColor: gray50,
+    borderBottomWidth: 1,
+    marginBottom: 16,
+  },
+  summaryTitle: {
+    fontSize: 20,
+    fontWeight: "700",
+    color: grey500,
+    marginBottom: 14,
+  },
+  summaryText: {
+    fontSize: 14,
+    color: grey300,
+    lineHeight: 15.6,
+  },
+  summaryValue: {
+    fontSize: 14,
+    color: grey500,
+  },
+  summaryBoldText: {
+    fontSize: 20,
+    fontWeight: "700",
+    color: grey500,
+  },
+  btnContainer: {
+    marginBottom: 32,
+  },
+  modalContainer: {
+    backgroundColor: "white",
+    padding: 16,
+    borderRadius: 10,
+    width: "100%",
+  },
+  modalTitle: {
+    textAlign: "left",
+    fontSize: 24,
+    fontWeight: "700",
+    marginBottom: 16,
+  },
+  modalDesc: {
+    fontSize: 14,
+    fontWeight: "400",
+    lineHeight: 21.6,
+    textAlign: "left",
+    marginBottom: 24,
+    color: greyText,
+  },
+  paymentTitle: {
+    color: grey900,
+    fontSize: 16,
+    fontWeight: "700",
+    marginBottom: 24,
+    textAlign: "center",
+  },
+  paymentStyle: {
+    flexDirection: "row",
+    justifyContent: "flex-start",
+    gap: 12,
+  },
+  borderBetween: {
+    height: 1,
+    backgroundColor: gray50,
+    marginVertical: 16,
+  },
+});
+export default styles;
